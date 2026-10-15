@@ -10,7 +10,7 @@ st.set_page_config(
 )
 
 DEFAULT_USERNAME = "admin"
-DEFAULT_PASSWORD = "password123"
+DEFAULT_PASSWORD = "password1234"
 
 if "authenticated" not in st.session_state:
     st.session_state.authenticated = False
